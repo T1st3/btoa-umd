@@ -238,6 +238,26 @@ module.exports = function (grunt) {
         },
         src: ['test/unittests.js']
       }
+    },
+    compress: {
+      sitemap: {
+        options: {
+          mode: 'gzip'
+        },
+        expand: true,
+        cwd: 'docs/',
+        src: ['**/*sitemap.xml'],
+        dest: 'docs/'
+      },
+      sitemapgh: {
+        options: {
+          mode: 'gzip'
+        },
+        expand: true,
+        cwd: 'docs/',
+        src: ['**/*sitemap.xml'],
+        dest: 'gh-pages/'
+      }
     }
   });
 
@@ -270,6 +290,8 @@ module.exports = function (grunt) {
     'mochaTest:coverage',
     'jekyll:docsamd',
     'copy:readme',
+    'compress:sitemap',
+    'compress:sitemapgh',
     'matter'
   ]);
   
