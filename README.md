@@ -160,7 +160,7 @@ Credits
 ---
 
 
-See [the credits page](http://t1st3.github.io/btoa-umd/build_docs.html) to see more.
+See [the credits page](http://t1st3.github.io/btoa-umd/credits.html) to see more.
 
 
 License
