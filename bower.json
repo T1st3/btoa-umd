@@ -1,14 +1,16 @@
 {
   "name": "btoa-umd",
   "version": "0.1.2",
-  "homepage": "https://github.com/T1st3/btoa-umd",
+  "homepage": "http://t1st3.github.io/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
     "amd",
     "umd",
     "btoa",
     "module",
-    "base64"
+    "base64",
+    "ascii",
+    "binary"
   ],
   "license": "MIT",
   "authors": [

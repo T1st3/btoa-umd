@@ -12,7 +12,7 @@
 
 'use strict';
 
-(function (window, factory) {
+(function (root, factory) {
   // Test for AMD modules
   if (typeof define === 'function' && define.amd) {
     // AMD
@@ -24,8 +24,7 @@
   // Browser globals
   } else {
     // Browser globals
-    /* global window */
-    window.Btoa = factory();
+    root.Btoa = factory();
   }
 }(this, function () {
   /** 
@@ -74,6 +73,7 @@
     }
     
     if (browser === true) {
+      /* global window */
       this.a = window.btoa(b);
     } else {
       var buffer;

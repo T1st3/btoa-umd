@@ -3,19 +3,19 @@
 
 'use strict';
 
-(function (window, factory) {
+(function (root, factory) {
   // Test for AMD modules
   if (typeof define === 'function' && define.amd) {
     // AMD
     require.config({
       baseUrl: '',
       paths: {
-        jquery: 'lib/jquery',
-        mocha: 'lib/mocha',
-        chai: 'lib/chai',
-        chaijquery: 'lib/chai-jquery',
-        bootstrap: 'lib/bootstrap.min',
-        btoa: 'lib/btoa-umd'
+        jquery: 'assets/js/lib/jquery.min',
+        mocha: 'assets/js/lib/mocha',
+        chai: 'assets/js/lib/chai',
+        chaijquery: 'assets/js/lib/chai-jquery',
+        bootstrap: 'assets/js/lib/bootstrap.min',
+        btoa: 'assets/js/lib/btoa-umd'
       },
       shim: {
         jquery: {
@@ -43,8 +43,7 @@
   // Browser globals
   } else {
     // Browser globals
-    /* global Btoa */
-    window.Btoa = factory(chai, Btoa);
+    root.Btoa = factory(root.chai, root.Btoa);
   }
 }(this, function (chai, Btoa) {
 

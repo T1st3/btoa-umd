@@ -1,14 +1,16 @@
 {
   "name": "btoa-umd",
   "version": "0.1.2",
-  "homepage": "https://github.com/T1st3/btoa-umd",
+  "homepage": "http://t1st3.github.io/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
     "amd",
     "umd",
     "btoa",
     "module",
-    "base64"
+    "base64",
+    "ascii",
+    "binary"
   ],
   "license": "MIT",
   "main": "dist/btoa-umd.js",
@@ -46,12 +48,15 @@
     "grunt-contrib-uglify": ">= 0.3.x",
     "grunt-version": ">= 0.3.x",
     "grunt-mocha-test": ">= 0.9.x",
+    "mocha-lcov-reporter": ">= 0.0.x",
+    "travis-cov": ">= 0.2.x",
     "chai": ">= 1.9.x",
     "blanket": ">= 1.1.x",
+    "grunt-coveralls": ">= 0.3.x",
     "grunt-bower-task": ">= 0.3.x",
     "grunt-jsdoc": ">= 0.5.x",
     "grunt-jekyll": ">= 0.4.x",
     "grunt-template": ">= 0.2.x",
-    "grunt-matter": ">= 0.1.x"
+    "grunt-banner": ">= 0.2.x"
   }
 }

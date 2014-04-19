@@ -5,9 +5,24 @@
   
     
     <url>
+      <loc>http://www.tiste.org/btoa-umd/demo.html</loc>
+      
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.6</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://www.tiste.org/btoa-umd/license.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>yearly</changefreq>
@@ -20,9 +35,39 @@
   
     
     <url>
+      <loc>http://www.tiste.org/btoa-umd/</loc>
+      
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>1</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://www.tiste.org/btoa-umd/functests_amd.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.tiste.org/btoa-umd/tests.html</loc>
+      
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -39,13 +84,28 @@
     <url>
       <loc>http://www.tiste.org/btoa-umd/coverage.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
       
       
         <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.tiste.org/btoa-umd/build_docs.html</loc>
+      
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.4</priority>
       
     </url>
     
@@ -54,13 +114,13 @@
     <url>
       <loc>http://www.tiste.org/btoa-umd/404.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>yearly</changefreq>
       
       
-        <priority>0.2</priority>
+        <priority>0.1</priority>
       
     </url>
     
@@ -69,7 +129,7 @@
     <url>
       <loc>http://www.tiste.org/btoa-umd/functests_global.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -82,24 +142,9 @@
   
     
     <url>
-      <loc>http://www.tiste.org/btoa-umd/</loc>
-      
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>1</priority>
-      
-    </url>
-    
-  
-    
-    <url>
       <loc>http://www.tiste.org/btoa-umd/jsdoc.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -114,13 +159,28 @@
     <url>
       <loc>http://www.tiste.org/btoa-umd/unittests_global.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
       
       
         <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://www.tiste.org/btoa-umd/credits.html</loc>
+      
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.4</priority>
       
     </url>
     
@@ -129,28 +189,13 @@
     <url>
       <loc>http://www.tiste.org/btoa-umd/unittests_amd.html</loc>
       
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
+        <lastmod>2014-04-19T19:38:19+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
       
       
         <priority>0.5</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://www.tiste.org/btoa-umd/readme.html</loc>
-      
-        <lastmod>2014-04-17T17:11:37+02:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.6</priority>
       
     </url>
     
