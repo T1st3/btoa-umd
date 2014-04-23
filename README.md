@@ -12,7 +12,7 @@ btoa-umd
 About
 ---
 
-`btoa-umd` is a Javascript UMD module for btoa().<br><br>
+`btoa-umd` is a Javascript UMD module for btoa().
 
 You'll find all about this project on its **[project pages](http://t1st3.github.io/btoa-umd/)**
 
