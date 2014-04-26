@@ -38,10 +38,10 @@ require([
         var umd = new Btoa();
         return umd.handle(b).a;
       };
-      $('#out').html(btoa('Hello world'));
+      $('#out > code').html(btoa('Hello world'));
     });
     $('#reset').on('click', function () {
-      $('#out').html('No result yet!');
+      $('#out > code').html('No result yet!');
     });
     
     $('pre.js > code.js').each(function () {
