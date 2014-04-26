@@ -43,7 +43,7 @@
   // Browser globals
   } else {
     // Browser globals
-    root.Btoa = factory(root.chai, root.Btoa);
+    root.BtoaTests = factory(root.chai, root.Btoa);
   }
 }(this, function (chai, Btoa) {
 
