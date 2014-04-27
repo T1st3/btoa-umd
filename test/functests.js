@@ -84,6 +84,18 @@
           done();
         });
       });
+      describe('tests with no window.btoa', function () {
+        it('Correct param "Hello world" for b', function (done) {
+          var btoa = function (b) {
+            var umd = new Btoa();
+            return umd.handle(b).a;
+          };
+          /* global window */
+          window.btoa = {};
+          btoa('SGVsbG8gd29ybGQ=').should.equal('Hello world');
+          done();
+        });
+      });
     }
   });
   

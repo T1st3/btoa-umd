@@ -77,7 +77,20 @@
       it('Correct param "Hello world" for b', function (done) {
         var umd = new Btoa();
         var res = umd.handle('Hello world');
+        res.should.be.a('object');
         res.a.should.equal('SGVsbG8gd29ybGQ=');
+        done();
+      });
+    });
+    describe('tests against encode', function () {
+      it('No param for b', function (done) {
+        var res = Btoa.encode();
+        res.should.equal('');
+        done();
+      });
+      it('Correct param "Hello world" for b', function (done) {
+        var res = Btoa.encode('Hello world');
+        res.should.equal('SGVsbG8gd29ybGQ=');
         done();
       });
     });
