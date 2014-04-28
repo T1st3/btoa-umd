@@ -92,6 +92,13 @@
     return this;
   };
   
+  /**
+  * encode fix for browser which don't support btoa
+  * @method encode
+  * @memberof Btoa
+  * @param {string} b
+  * @since 0.2.0
+  */
   Btoa.encode = function (b) {
     if (!b || arguments.length === 0) {
       return '';
