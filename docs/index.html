@@ -133,7 +133,7 @@
 
 <h2 id="about">About</h2>
 
-<p><code>btoa-umd</code> is a Javascript UMD module for btoa().</p>
+<p><code>btoa-umd</code> is a Javascript UMD module for atob().</p>
 
 <p>You’ll find all about this project on its <strong><a href="http://t1st3.github.io/btoa-umd/">project pages</a></strong></p>
 
@@ -201,12 +201,12 @@ bower install
 <p>First, see “Installation for development” above. 
 Do not forget to get the dependencies!</p>
 
-<p>Then, you also need to install <a href="http://gruntjs.com/">Grunt</a> globally to build the project.</p>
+<p>Then, you also need to install <a href="http://gulpjs.com/">Gulp</a> globally to build the project.</p>
 
-<pre><code>npm install -g grunt-cli
+<pre><code>npm install -g gulp
 </code></pre>
 
-<p>See more at the <a href="http://gruntjs.com/getting-started">“Getting started with Grunt” page</a>.</p>
+<p>See more at the <a href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#getting-started">“Getting started with Gulp” page</a>.</p>
 
 <hr />
 
@@ -216,25 +216,28 @@ Do not forget to get the dependencies!</p>
 
 <p>To build, just run:</p>
 
-<pre><code>grunt build
+<pre><code>gulp build
 </code></pre>
 
-<p>To test, you can use Grunt:</p>
+<p>To test, you can use either the <code>npm test</code> command or the <code>gulp test</code> command:</p>
 
 <pre><code>npm test
+</code></pre>
+
+<p>or</p>
+
+<pre><code>gulp test
 </code></pre>
 
 <p><strong>Serve and livereload</strong></p>
 
 <p>You can also use the <code>serve</code> task to load the <code>docs</code> pages in your browser.</p>
 
-<pre><code>grunt serve
+<pre><code>gulp serve
 </code></pre>
 
 <p>Once it has loaded the page in the browser, this task watches for any modification in the source.
 If changes happen in the source, the task automatically reloads the page in the browser (livereload).</p>
-
-<p>This project is <a href="http://gruntjs.com/"><img src="https://cdn.gruntjs.com/builtwith.png" alt="Built with Grunt" /></a>.</p>
 
 <h2 id="dependencies">Dependencies</h2>
 
@@ -248,6 +251,7 @@ If changes happen in the source, the task automatically reloads the page in the 
 <p>Please note that this task has a few more dependencies:</p>
 
 <ul>
+  <li><a href="http://gotwarlost.github.io/istanbul/">Istanbul</a></li>
   <li><a href="https://www.ruby-lang.org/">Ruby</a> and <a href="https://rubygems.org/">RubyGems</a></li>
   <li><a href="http://jekyllrb.com/">Jekyll</a></li>
   <li><a href="http://kramdown.gettalong.org/">Kramdown</a></li>
