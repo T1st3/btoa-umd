@@ -90,7 +90,7 @@
             var umd = new Btoa();
             return umd.handle(b).a;
           };
-          bToA('SGVsbG8gd29ybGQ=').should.equal('Hello world');
+          bToA('Hello world').should.equal('SGVsbG8gd29ybGQ=');
           done();
         });
       });
