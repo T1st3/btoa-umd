@@ -75,24 +75,22 @@
     if (browser === true) {
       describe('test general behaviour (browser test)', function () {
         it('Should behave like native function', function (done) {
-          var btoa = function (b) {
+          var bToA = function (b) {
             var umd = new Btoa();
             return umd.handle(b).a;
           };
           /* global window */
-          btoa('SGVsbG8gd29ybGQ=').should.equal(window.btoa('SGVsbG8gd29ybGQ='));
+          bToA('SGVsbG8gd29ybGQ=').should.equal(window.btoa('SGVsbG8gd29ybGQ='));
           done();
         });
       });
       describe('tests with no window.btoa', function () {
         it('Correct param "Hello world" for b', function (done) {
-          var btoa = function (b) {
+          var bToA = function (b) {
             var umd = new Btoa();
             return umd.handle(b).a;
           };
-          /* global window */
-          window.btoa = {};
-          btoa('SGVsbG8gd29ybGQ=').should.equal('Hello world');
+          bToA('SGVsbG8gd29ybGQ=').should.equal('Hello world');
           done();
         });
       });
