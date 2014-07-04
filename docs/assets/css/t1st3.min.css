@@ -124,10 +124,13 @@ ul {
 }
 
 #main h2 {
-  padding-top: 30px;
-  border-top: 1px dashed #b5e853;
   margin-top: 30px;
   padding-bottom: 15px;
+}
+
+#main .readme_wrap h2 {
+  padding-top: 30px;
+  border-top: 1px dashed #b5e853;
 }
 
 #main .anchor-link {
@@ -144,6 +147,14 @@ ul {
 #main h5:hover .anchor-link,
 #main h6:hover .anchor-link {
   opacity: 1;
+}
+
+#main .fa {
+  color: #b5e853;
+}
+
+#main .anchor-link .fa {
+  color: #428bca;
 }
 
 #footer-wrap {
