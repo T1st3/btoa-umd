@@ -199,7 +199,7 @@
     <h1>Code coverage report for <span class="entity">src/btoa-umd.js</span></h1>
     <h2>
         
-        Statements: <span class="metric">84.62% <small>(44 / 52)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Statements: <span class="metric">84% <small>(42 / 50)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
         Branches: <span class="metric">65.63% <small>(21 / 32)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,7 +208,7 @@
         Functions: <span class="metric">100% <small>(5 / 5)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         
-        Lines: <span class="metric">84.62% <small>(44 / 52)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
+        Lines: <span class="metric">84% <small>(42 / 50)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
@@ -418,6 +418,7 @@
 <span class="cline-any cline-yes">3</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-yes">3</span>
@@ -432,7 +433,6 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3</span>
 <span class="cline-any cline-yes">3</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -459,7 +459,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1</span>
 <span class="cline-any cline-yes">4</span>
@@ -486,12 +486,12 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/*!
 * btoa-umd
-* 
+*
 * @link https://github.com/T1st3/btoa-umd
 * @author T1st3
-* @version 0.4.4
+* @version 0.4.5
 * @license https://github.com/T1st3/btoa-umd/blob/master/LICENSE
-* 
+*
 */
 &nbsp;
 /* global define */
@@ -513,12 +513,12 @@
 <span class="cstat-no" title="statement not covered" >    root.Btoa = factory();</span>
   }
 }(this, function () {
-  /** 
+  /**
   * btoa(), UMD style
   * @module Btoa
   * @namespace Btoa
   */
-  
+&nbsp;
   /**
   * @constructor
   * @param {string} b
@@ -535,7 +535,7 @@
     // keep chainability
     return this;
   };
-  
+&nbsp;
   /**
   * handle B to A
   * @method handle
@@ -550,14 +550,15 @@
       return this;
     }
     this.b = b;
-    
-    var browser = true;
+&nbsp;
+    var browser = true,
+    buffer;
     <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof define === 'function' &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >define.amd)</span> {
 <span class="cstat-no" title="statement not covered" >      browser = true;</span>
     } else <span class="missing-if-branch" title="else path not taken" >E</span>if (typeof exports === 'object') {
       browser = false;
     }
-    
+&nbsp;
     <span class="missing-if-branch" title="if path not taken" >I</span>if (browser === true) {
       /* global window */
 <span class="cstat-no" title="statement not covered" >      if (typeof window.btoa === 'function') {</span>
@@ -566,7 +567,6 @@
 <span class="cstat-no" title="statement not covered" >        this.a = Btoa.encode(b);</span>
       }
     } else {
-      var buffer;
       <span class="missing-if-branch" title="if path not taken" >I</span>if (b instanceof Buffer) {
 <span class="cstat-no" title="statement not covered" >        buffer = b;</span>
       } else {
@@ -577,7 +577,7 @@
     // keep chainability
     return this;
   };
-  
+&nbsp;
   /**
   * encode fix for browser which don't support btoa
   * @method encode
@@ -589,11 +589,11 @@
     if (!b || arguments.length === 0) {
       return '';
     }
-    var _byte = [], 
-    _char = [], 
+    var _byte = [],
+    _char = [],
     _result = [],
-    j = 0, i = 0;
-    var CHAR_MAP = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+    j = 0, i = 0,
+    CHAR_MAP = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
     /*jshint bitwise: false*/
     for (i = 0; i &lt; b.length; i += 3) {
       _byte[0] = b.charCodeAt(i);
@@ -608,14 +608,14 @@
       } else if (isNaN(_byte[2])) {
         _char[3] = 64;
       }
-      _result[j++] = CHAR_MAP.charAt(_char[0]) + 
-        CHAR_MAP.charAt(_char[1]) + 
-        CHAR_MAP.charAt(_char[2]) + 
+      _result[j++] = CHAR_MAP.charAt(_char[0]) +
+        CHAR_MAP.charAt(_char[1]) +
+        CHAR_MAP.charAt(_char[2]) +
         CHAR_MAP.charAt(_char[3]);
     }
     return _result.join('');
   };
-  
+&nbsp;
   return Btoa;
 }));
 &nbsp;</pre></td></tr>
@@ -623,7 +623,7 @@
 
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Jul 04 2014 19:52:31 GMT+0200 (CEST)</div>
+    <div class="meta">Generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Fri Jul 04 2014 22:02:43 GMT+0200 (CEST)</div>
 </div>
 
 <script src="../prettify.js"></script>

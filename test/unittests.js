@@ -51,7 +51,7 @@
     mocha.setup('bdd');
   }
   var should = chai.should();
-  
+
   describe('btoa-umd unit tests', function () {
     describe('tests against constructor', function () {
       it('No param for b', function (done) {
@@ -68,15 +68,15 @@
     });
     describe('tests against handle', function () {
       it('No param for b', function (done) {
-        var umd = new Btoa();
-        var res = umd.handle();
+        var umd = new Btoa(),
+        res = umd.handle();
         res.should.be.a('object');
         res.a.should.equal('');
         done();
       });
       it('Correct param "Hello world" for b', function (done) {
-        var umd = new Btoa();
-        var res = umd.handle('Hello world');
+        var umd = new Btoa(),
+        res = umd.handle('Hello world');
         res.should.be.a('object');
         res.a.should.equal('SGVsbG8gd29ybGQ=');
         done();
@@ -95,7 +95,7 @@
       });
     });
   });
-  
+
   if (typeof exports !== 'object') {
     mocha.run();
   }
