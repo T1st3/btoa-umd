@@ -1,6 +1,6 @@
 {
   "name": "btoa-umd",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "homepage": "http://t1st3.github.io/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
@@ -58,6 +58,7 @@
     "figlet": "~1.0.9",
     "cowsay": "~1.0.3",
     "qrcode-terminal": "~0.9.4",
-    "ip": "~0.3.0"
+    "ip": "~0.3.0",
+    "changelog": "~1.0.5"
   }
 }
