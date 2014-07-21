@@ -3,7 +3,7 @@
 *
 * @link https://github.com/T1st3/btoa-umd
 * @author T1st3
-* @version 0.5.0
+* @version 0.5.1
 * @license https://github.com/T1st3/btoa-umd/blob/master/LICENSE
 *
 */

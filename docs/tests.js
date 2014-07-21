@@ -153,7 +153,6 @@
             return umd.handle(b).a;
           };
           bToA('Hello world').should.equal('SGVsbG8gd29ybGQ=');
-
           /* last test callback */
           console.log(window.__coverage__);
           done();
