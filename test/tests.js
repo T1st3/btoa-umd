@@ -47,10 +47,21 @@
   }
 }(this, function (chai, Btoa) {
 
-  if (typeof exports !== 'object') {
-    mocha.setup('bdd');
+  var should = chai.should(),
+  browser = false;
+
+  if (typeof define === 'function' && define.amd) {
+    browser = true;
+  } else if (typeof exports === 'object') {
+    browser = false;
+  } else {
+    browser = true;
   }
-  var should = chai.should();
+
+  if (browser === true) {
+    mocha.setup('bdd');
+    mocha.reporter('html');
+  }
 
   describe('btoa-umd unit tests', function () {
     describe('tests against constructor', function () {
@@ -81,15 +92,17 @@
         res.a.should.equal('SGVsbG8gd29ybGQ=');
         done();
       });
-      it('Correct param Buffer for b', function (done) {
-        var umd = new Btoa(),
-        res = null,
-        buffer = new Buffer('Hello world', 'binary');
-        res = umd.handle(buffer);
-        res.should.be.a('object');
-        res.a.should.equal('SGVsbG8gd29ybGQ=');
-        done();
-      });
+      if (browser === false) {
+        it('Correct param Buffer for b', function (done) {
+          var umd = new Btoa(),
+          res = null,
+          buffer = new Buffer('Hello world', 'binary');
+          res = umd.handle(buffer);
+          res.should.be.a('object');
+          res.a.should.equal('SGVsbG8gd29ybGQ=');
+          done();
+        });
+      }
     });
     describe('tests against encode', function () {
       it('No param for b', function (done) {
@@ -110,7 +123,50 @@
     });
   });
 
+  describe('btoa-umd functional tests', function () {
+    describe('test general behaviour (browser test)', function () {
+      it('Should behave like native function', function (done) {
+        var btoa = function (b) {
+          var umd = new Btoa();
+          return umd.handle(b).a;
+        };
+        btoa('Hello world').should.equal('SGVsbG8gd29ybGQ=');
+        done();
+      });
+    });
+    if (browser === true) {
+      describe('test general behaviour (browser test)', function () {
+        it('Should behave like native function', function (done) {
+          var bToA = function (b) {
+            var umd = new Btoa();
+            return umd.handle(b).a;
+          };
+          /* global window */
+          bToA('SGVsbG8gd29ybGQ=').should.equal(window.btoa('SGVsbG8gd29ybGQ='));
+          done();
+        });
+      });
+      describe('tests with no window.btoa', function () {
+        it('Correct param "Hello world" for b', function (done) {
+          var bToA = function (b) {
+            var umd = new Btoa();
+            return umd.handle(b).a;
+          };
+          bToA('Hello world').should.equal('SGVsbG8gd29ybGQ=');
+
+          /* last test callback */
+          console.log(window.__coverage__);
+          done();
+        });
+      });
+    }
+  });
+
   if (typeof exports !== 'object') {
-    mocha.run();
+    if (window.mochaPhantomJS) {
+      window.mochaPhantomJS.run();
+    } else {
+      mocha.run();
+    }
   }
 }));

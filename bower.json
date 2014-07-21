@@ -1,6 +1,6 @@
 {
   "name": "btoa-umd",
-  "version": "0.4.6",
+  "version": "0.5.0",
   "homepage": "http://t1st3.github.io/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [

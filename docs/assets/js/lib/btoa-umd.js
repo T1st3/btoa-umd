@@ -3,7 +3,7 @@
 *
 * @link https://github.com/T1st3/btoa-umd
 * @author T1st3
-* @version 0.4.6
+* @version 0.5.0
 * @license https://github.com/T1st3/btoa-umd/blob/master/LICENSE
 *
 */
@@ -41,6 +41,13 @@
   var Btoa = function (b) {
     this.a = '';
     this.b = '';
+    if (typeof define === 'function' && define.amd) {
+      this.browser = true;
+    } else if (typeof exports === 'object') {
+      this.browser = false;
+    } else {
+      this.browser = true;
+    }
     // set method if supplied
     if (b) {
       this.handle(b);
@@ -65,15 +72,9 @@
     }
     this.b = b;
 
-    var browser = true,
-    buffer;
-    if (typeof define === 'function' && define.amd) {
-      browser = true;
-    } else if (typeof exports === 'object') {
-      browser = false;
-    }
+    var buffer;
 
-    if (browser === true) {
+    if (this.browser === true) {
       /* global window */
       if (typeof window.btoa === 'function') {
         this.a = window.btoa(b);

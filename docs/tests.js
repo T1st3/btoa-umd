@@ -47,10 +47,6 @@
   }
 }(this, function (chai, Btoa) {
 
-  if (typeof exports !== 'object') {
-    mocha.setup('bdd');
-  }
-
   var should = chai.should(),
   browser = false;
 
@@ -61,6 +57,71 @@
   } else {
     browser = true;
   }
+
+  if (browser === true) {
+    mocha.setup('bdd');
+    mocha.reporter('html');
+  }
+
+  describe('btoa-umd unit tests', function () {
+    describe('tests against constructor', function () {
+      it('No param for b', function (done) {
+        var res = new Btoa();
+        res.should.be.a('object');
+        res.a.should.equal('');
+        done();
+      });
+      it('Correct param "Hello world" for b', function (done) {
+        var res = new Btoa('Hello world');
+        res.a.should.equal('SGVsbG8gd29ybGQ=');
+        done();
+      });
+    });
+    describe('tests against handle', function () {
+      it('No param for b', function (done) {
+        var umd = new Btoa(),
+        res = umd.handle();
+        res.should.be.a('object');
+        res.a.should.equal('');
+        done();
+      });
+      it('Correct param "Hello world" for b', function (done) {
+        var umd = new Btoa(),
+        res = umd.handle('Hello world');
+        res.should.be.a('object');
+        res.a.should.equal('SGVsbG8gd29ybGQ=');
+        done();
+      });
+      if (browser === false) {
+        it('Correct param Buffer for b', function (done) {
+          var umd = new Btoa(),
+          res = null,
+          buffer = new Buffer('Hello world', 'binary');
+          res = umd.handle(buffer);
+          res.should.be.a('object');
+          res.a.should.equal('SGVsbG8gd29ybGQ=');
+          done();
+        });
+      }
+    });
+    describe('tests against encode', function () {
+      it('No param for b', function (done) {
+        var res = Btoa.encode();
+        res.should.equal('');
+        done();
+      });
+      it('Correct param "z" for b', function (done) {
+        var res = Btoa.encode('b');
+        res.should.equal('Yg==');
+        done();
+      });
+      it('Correct param "Hello world" for b', function (done) {
+        var res = Btoa.encode('Hello world');
+        res.should.equal('SGVsbG8gd29ybGQ=');
+        done();
+      });
+    });
+  });
 
   describe('btoa-umd functional tests', function () {
     describe('test general behaviour (browser test)', function () {
@@ -92,6 +153,9 @@
             return umd.handle(b).a;
           };
           bToA('Hello world').should.equal('SGVsbG8gd29ybGQ=');
+
+          /* last test callback */
+          console.log(window.__coverage__);
           done();
         });
       });
@@ -99,6 +163,10 @@
   });
 
   if (typeof exports !== 'object') {
-    mocha.run();
+    if (window.mochaPhantomJS) {
+      window.mochaPhantomJS.run();
+    } else {
+      mocha.run();
+    }
   }
 }));

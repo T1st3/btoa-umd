@@ -82,7 +82,8 @@ You can also browse these documents and tests online:
 - [JSDoc](http://t1st3.github.io/btoa-umd/jsdoc.html)
 - [Credits](http://t1st3.github.io/btoa-umd/credits.html)
 - [Tests](http://t1st3.github.io/btoa-umd/tests.html)
-
+- [Coverage](http://t1st3.github.io/btoa-umd/coverage.html)
+- [Dependencies](http://t1st3.github.io/btoa-umd/dependencies.html)
 
 
 
