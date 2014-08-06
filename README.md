@@ -6,6 +6,7 @@ btoa-umd
 [![Dependency Status](https://david-dm.org/t1st3/btoa-umd.svg?theme=shields.io)](https://david-dm.org/t1st3/btoa-umd)
 [![Build Status](https://travis-ci.org/T1st3/btoa-umd.svg?branch=master)](https://travis-ci.org/T1st3/btoa-umd)
 [![Coverage Status](https://coveralls.io/repos/T1st3/btoa-umd/badge.png)](https://coveralls.io/r/T1st3/btoa-umd)
+[![Code Climate](https://codeclimate.com/github/T1st3/btoa-umd/badges/gpa.svg)](https://codeclimate.com/github/T1st3/btoa-umd)
 
 
 
@@ -14,7 +15,7 @@ About
 
 `btoa-umd` is a Javascript UMD module for btoa().
 
-You'll find all about this project on its **[project pages](http://t1st3.github.io/btoa-umd/)**
+You'll find all about this project on its **[project pages](http://www.tiste.org/btoa-umd/)**
 
 
 
@@ -25,7 +26,7 @@ Installation for production
 **with Node.js**
 
 `btoa-umd` is available on [NPM](https://www.npmjs.org/package/btoa-umd)
-[![NPM](http://t1st3.github.io/btoa-umd/assets/img/vendor/npm-16x16.png)](https://www.npmjs.org/package/btoa-umd).
+[![NPM](http://www.tiste.org/btoa-umd/assets/img/vendor/npm-16x16.png)](https://www.npmjs.org/package/btoa-umd).
 
 [![NPM version](https://badge.fury.io/js/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
 
@@ -38,7 +39,7 @@ You can install it with the following command:
 
 
 `btoa-umd` is available on [Bower](http://bower.io/search/?q=btoa-umd)
-[![Bower](http://t1st3.github.io/btoa-umd/assets/img/vendor/bower-16x16.png)](http://bower.io/search/?q=btoa-umd).
+[![Bower](http://www.tiste.org/btoa-umd/assets/img/vendor/bower-16x16.png)](http://bower.io/search/?q=btoa-umd).
 
 [![Bower version](https://badge.fury.io/bo/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
 
@@ -77,13 +78,13 @@ You can find fully functional examples, tests and a documentation in the [JSDoc]
 
 You can also browse these documents and tests online:
 
-- [Demo](http://t1st3.github.io/btoa-umd/demo.html)
-- [this README and more info](http://t1st3.github.io/btoa-umd)
-- [JSDoc](http://t1st3.github.io/btoa-umd/jsdoc.html)
-- [Credits](http://t1st3.github.io/btoa-umd/credits.html)
-- [Tests](http://t1st3.github.io/btoa-umd/tests.html)
-- [Coverage](http://t1st3.github.io/btoa-umd/coverage.html)
-- [Dependencies](http://t1st3.github.io/btoa-umd/dependencies.html)
+- [Demo](http://www.tiste.org/btoa-umd/demo.html)
+- [this README and more info](http://www.tiste.org/btoa-umd)
+- [JSDoc](http://www.tiste.org/btoa-umd/jsdoc.html)
+- [Credits](http://www.tiste.org/btoa-umd/credits.html)
+- [Tests](http://www.tiste.org/btoa-umd/tests.html)
+- [Coverage](http://www.tiste.org/btoa-umd/coverage.html)
+- [Dependencies](http://www.tiste.org/btoa-umd/dependencies.html)
 
 
 
@@ -121,7 +122,7 @@ To build, just run:
 
 Note that you need a few more dependencies to test the project.
 
-See [the tests page for more info](http://t1st3.github.io/btoa-umd/tests.html)
+See [the tests page for more info](http://www.tiste.org/btoa-umd/tests.html)
 
 To test, you can use either the `npm test` command or the `gulp test` command:
 
@@ -137,7 +138,7 @@ or
 
 **Serve and livereload**
 
-You can also use the `serve` task to load the `docs` pages in your browser.
+You can also use the `serve` task to load the `test/` HTML pages in your browser.
 
     gulp serve
 
@@ -159,7 +160,7 @@ Please note that this task has a few more dependencies:
 * [Kramdown](http://kramdown.gettalong.org/)
 
 
-Check [the build-docs page](http://t1st3.github.io/btoa-umd/build_docs.html) for more info.
+Check [the build-docs page](http://www.tiste.org/btoa-umd/build_docs.html) for more info.
 
 
 
@@ -168,7 +169,7 @@ Credits
 ---
 
 
-See [the credits page](http://t1st3.github.io/btoa-umd/credits.html) to see more.
+See [the credits page](http://www.tiste.org/btoa-umd/credits.html) to see more.
 
 
 License
@@ -177,7 +178,7 @@ License
 
 This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github.com/T1st3/btoa-umd/blob/master/LICENSE.md)
 
-You can also view it in a re-formatted fashion: [MIT / BSD / GPL licenses](http://t1st3.github.io/btoa-umd/license.html).
+You can also view it in a re-formatted fashion: [MIT / BSD / GPL licenses](http://www.tiste.org/btoa-umd/license.html).
 
 
 
@@ -185,5 +186,5 @@ Initial author
 ---
 
 [T1st3](https://github.com/T1st3/) 
-[![T1st3](http://t1st3.github.io/btoa-umd/assets/img/gravatar-16x16.png)](https://github.com/T1st3/)
+[![T1st3](http://www.tiste.org/btoa-umd/assets/img/gravatar-16x16.png)](https://github.com/T1st3/)
 
