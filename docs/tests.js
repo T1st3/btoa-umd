@@ -161,7 +161,7 @@
     }
   });
 
-  if (typeof exports !== 'object') {
+  if (browser === true) {
     if (window.mochaPhantomJS) {
       window.mochaPhantomJS.run();
     } else {
