@@ -1,6 +1,6 @@
 {
   "name": "btoa-umd",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "homepage": "http://www.tiste.org/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
