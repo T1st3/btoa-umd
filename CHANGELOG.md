@@ -1,8 +1,18 @@
 ## Change Log
 
-### upcoming (2014/09/01 06:32 +00:00)
+### 0.6.6 (2014/09/01 06:34 +00:00)
 - [976c2f4](https://github.com/T1st3/btoa-umd/commit/976c2f447d5c01ab36a2bf5a3c2c69e2015bb95f) Update gulpfile (@T1st3)
 - [75f1eb1](https://github.com/T1st3/btoa-umd/commit/75f1eb14526036763fee82f2e22a6eeb88de6edf) Update Node deps (@T1st3)
+- [18b9f85](https://github.com/T1st3/btoa-umd/commit/18b9f85e71b2a09c9fcd70a81f975feb8d9e75af) Update Node deps (@T1st3)
+- [e8d4b8e](https://github.com/T1st3/btoa-umd/commit/e8d4b8e11893b1c1ec045feca2c700c5789375b4) Update Node deps (@T1st3)
+- [fcad6ad](https://github.com/T1st3/btoa-umd/commit/fcad6ada72f8baee213d66e9c3076d2d6ab5af67) Set .directory as a forbidden file (useful when working with GNU/Linux & KDE) (@T1st3)
+- [af0dedf](https://github.com/T1st3/btoa-umd/commit/af0dedf8fa877a301ee47f742d84206ee6a16e48) Set .directory as a forbidden file (useful when working with GNU/Linux & KDE) (@T1st3)
+- [2556afc](https://github.com/T1st3/btoa-umd/commit/2556afc2b3c1e956c73d94ac52a4441d3f230426) Set .directory as a forbidden file (useful when working with GNU/Linux & KDE) (@T1st3)
+- [7269f87](https://github.com/T1st3/btoa-umd/commit/7269f8761301f8b5f92cbdac7a4702690100e4a0) Update gulpfile (@T1st3)
+- [3b0e529](https://github.com/T1st3/btoa-umd/commit/3b0e529baa52d746fc04602ebe36035a95991a17) Update gulpfile (@T1st3)
+- [9b4a0be](https://github.com/T1st3/btoa-umd/commit/9b4a0be01261bad624adee9f21a81a2c9de23e03) Update test libs (@T1st3)
+- [8527623](https://github.com/T1st3/btoa-umd/commit/852762302ad5ad8b473332d39be2570b072d2308) Update gulpfile (@T1st3)
+- [85fbf01](https://github.com/T1st3/btoa-umd/commit/85fbf01a3baf4f077744feb6e55289bb17526372) 0.6.6 (@T1st3)
 
 ### 0.6.5 (2014/08/11 10:35 +00:00)
 - [78df6e4](https://github.com/T1st3/btoa-umd/commit/78df6e461159605cee0300f60d978370c44b3947) 0.6.5 (@T1st3)
