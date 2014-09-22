@@ -32,9 +32,6 @@
 ### 0.6.1 (2014/08/06 20:07 +00:00)
 - [f85f5ba](https://github.com/T1st3/btoa-umd/commit/f85f5baded9f3e35cd59756bcbcb140696d89bbb) 0.6.1 (@T1st3)
 
-### 0.6.0 (2014/08/06 16:43 +00:00)
-- [c63701d](https://github.com/T1st3/btoa-umd/commit/c63701d0ce56004dca992b492eea68c5996f1802) 0.6.0 (@T1st3)
-
 ### 0.5.3 (2014/08/04 20:04 +00:00)
 - [2dca866](https://github.com/T1st3/btoa-umd/commit/2dca86649f118e4e9f93606cab430fbf3c26bc37) 0.5.3 (@T1st3)
 
@@ -65,6 +62,14 @@
 - [ee18892](https://github.com/T1st3/btoa-umd/commit/ee188922f0892e81422d358c52bf938cdf331d61) Update bower.json (@T1st3)
 - [fce9ad4](https://github.com/T1st3/btoa-umd/commit/fce9ad48f403500df622807fca96aadb3c49adfe) Update bower.json & .npmignore: replace Gruntfile with gulpfile (@T1st3)
 - [5528870](https://github.com/T1st3/btoa-umd/commit/5528870dbd6951954faf349861fbaa01eeac8e17) Update bower and package .json (@T1st3)
+
+### upcoming (2014/09/22 12:59 +00:00)
+- [6da7096](https://github.com/T1st3/btoa-umd/commit/6da709661cbe849d64fc3b45711cb761bed16d77) Update deps (@T1st3)
+
+### 0.6.0 (2014/08/06 16:43 +00:00)
+- [c63701d](https://github.com/T1st3/btoa-umd/commit/c63701d0ce56004dca992b492eea68c5996f1802) 0.6.0 (@T1st3)
+
+### 0.4.5 (2014/07/04 20:02 +00:00)
 - [d85ca7f](https://github.com/T1st3/btoa-umd/commit/d85ca7f29e51364b5e8342edd4ca86dd64f22a0a) 0.4.5 (@T1st3)
 
 ### 0.4.4 (2014/07/04 13:08 +00:00)
