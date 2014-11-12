@@ -133,3 +133,5 @@
 
   return Btoa;
 }));
+
+//# sourceMappingURL=btoa-umd.js.map
