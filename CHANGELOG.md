@@ -1,5 +1,16 @@
 ## Change Log
 
+### 0.6.8 (2014/11/12 21:04 +00:00)
+- [9855a75](https://github.com/T1st3/btoa-umd/commit/9855a75134abc8f143e911455d221b890557128f) chore: v0.6.8 (@T1st3)
+- [547bf0b](https://github.com/T1st3/btoa-umd/commit/547bf0b0088e1e253dcad21bba9af15695c6ad5d) chore: revamp gulpfile (@T1st3)
+- [00360b7](https://github.com/T1st3/btoa-umd/commit/00360b7f9e17f2c65ed91c157f8265ef59b3f661) chore: update npm deps (@T1st3)
+- [45e6f17](https://github.com/T1st3/btoa-umd/commit/45e6f17139011624501a2bd5bd12253e1fdfcc36) chore: update bower deps (@T1st3)
+- [7e7f83f](https://github.com/T1st3/btoa-umd/commit/7e7f83f82830d8e60f161265eba1af18308d43d1) chore: update bower ignores (@T1st3)
+- [be2da39](https://github.com/T1st3/btoa-umd/commit/be2da39c9af8795b137911d22bc2034f36e3df76) chore: update .npmignore (@T1st3)
+- [b376c66](https://github.com/T1st3/btoa-umd/commit/b376c667f41670b918f29b3b3a57d5172806f7fc) chore: update .gitignore (@T1st3)
+- [ba299e4](https://github.com/T1st3/btoa-umd/commit/ba299e4a1409f714c2e7e01657350769d69da309) docs: fix link to licneses in README (@T1st3)
+- [1451bbc](https://github.com/T1st3/btoa-umd/commit/1451bbc2df40deb5c479095348a6069c0a524823) Add .mailmap file (@T1st3)
+
 ### 0.6.7 (2014/09/22 13:00 +00:00)
 - [63011eb](https://github.com/T1st3/btoa-umd/commit/63011eb7636ac4ee202832a540c761ddc00a1ff7) 0.6.7 (@T1st3)
 - [6da7096](https://github.com/T1st3/btoa-umd/commit/6da709661cbe849d64fc3b45711cb761bed16d77) Update deps (@T1st3)
