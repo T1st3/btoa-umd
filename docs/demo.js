@@ -3,23 +3,21 @@
 require.config({
   baseUrl: '',
   paths: {
-    jquery: 'assets/js/lib/jquery.min',
-    btoa: 'assets/js/lib/btoa-umd',
-    httpbackend: 'assets/js/lib/backends/backend-jquery',
-    httpresponse: 'assets/js/lib/http-response',
-    bootstrap: 'assets/js/lib/bootstrap.min'
+    jquery: 'assets/lib/jquery/dist/jquery.min',
+    mocha: 'assets/lib/mocha/mocha',
+    chai: 'assets/lib/chai/chai',
+    chaijquery: 'assets/lib/chai-jquery/chai-jquery',
+    bootstrap: 'assets/lib/bootstrap/dist/js/bootstrap.min',
+    btoa: 'assets/lib/btoa-umd'
   },
   shim: {
     jquery: {
       exports: '$'
     },
+    chaijquery: ['jquery', 'chai'],
+    bootstrap: ['jquery'],
     btoa: {
       exports: 'Btoa'
-    },
-    bootstrap: {
-      deps: [
-        'jquery'
-      ]
     }
   },
   scriptType: 'text/javascript'
@@ -28,8 +26,8 @@ require.config({
 require([
   'jquery',
   'btoa',
-  'assets/js/lib/codemirror',
-  'assets/js/lib/codemirror/javascript',
+  'assets/lib/codemirror/lib/codemirror',
+  'assets/lib/codemirror/mode/javascript/javascript',
   'bootstrap'
 ], function ($, Btoa, CodeMirror) {
   $(document).ready(function () {

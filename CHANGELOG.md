@@ -1,5 +1,10 @@
 ## Change Log
 
+### 0.6.9 (2014/11/18 22:35 +00:00)
+- [203f555](https://github.com/T1st3/btoa-umd/commit/203f555227a8f4baa8190b060ee378d28696fec4) chore: v0.6.9 (@T1st3)
+- [5aa2665](https://github.com/T1st3/btoa-umd/commit/5aa2665341c28a3adc25fd420d719d25a6436658) feat: add overrides in bower.json, for user with main-bower-files (@T1st3)
+- [e9a6b04](https://github.com/T1st3/btoa-umd/commit/e9a6b04d827bb741490f6c18ec125092811b7d82) feat: update npm deps and add bower-main-files as npm dep (@T1st3)
+
 ### 0.6.8 (2014/11/12 21:04 +00:00)
 - [9855a75](https://github.com/T1st3/btoa-umd/commit/9855a75134abc8f143e911455d221b890557128f) chore: v0.6.8 (@T1st3)
 - [547bf0b](https://github.com/T1st3/btoa-umd/commit/547bf0b0088e1e253dcad21bba9af15695c6ad5d) chore: revamp gulpfile (@T1st3)
