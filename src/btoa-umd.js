@@ -3,7 +3,7 @@
 *
 * @link https://github.com/T1st3/btoa-umd
 * @author T1st3
-* @version 0.6.12
+* @version 0.6.13
 * @license https://github.com/T1st3/btoa-umd/blob/master/LICENSE
 *
 */
@@ -13,15 +13,12 @@
 'use strict';
 
 (function (root, factory) {
-  // Test for AMD modules
   if (typeof define === 'function' && define.amd) {
     // AMD
     define([], factory);
-  // Test for Node.js
   } else if (typeof exports === 'object') {
     // Node
     module.exports = factory();
-  // Browser globals
   } else {
     // Browser globals
     root.Btoa = factory();

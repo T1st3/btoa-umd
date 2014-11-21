@@ -1,5 +1,9 @@
 ## Change Log
 
+### 0.6.12 (2014/11/21 00:25 +00:00)
+- [be104e9](https://github.com/T1st3/btoa-umd/commit/be104e9dc37d499e804964b33257c8057a49992c) chore: v0.6.12 (@T1st3)
+- [7b17eeb](https://github.com/T1st3/btoa-umd/commit/7b17eebff5ec9d5d2032884e0ec03ae59705d650) chore: update path of source in AMD tests and demo (@T1st3)
+
 ### 0.6.11 (2014/11/19 02:16 +00:00)
 - [92d7611](https://github.com/T1st3/btoa-umd/commit/92d7611bd628e3d0e3227b81f216cba5a187054c) chore: v0.6.11 (@T1st3)
 
