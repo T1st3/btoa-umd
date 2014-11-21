@@ -229,10 +229,10 @@ gulp.task('init', ['qr'], function (cb) {
 
 gulp.task('test_copy', ['figlet'], function (cb) {
   del([
-    './test/assets/lib/' + pkg.name + '.js'
+    './test/assets/lib/' + pkg.name + '/dist/' + pkg.name + '.js'
   ], function() {
     gulp.src('./src/*.js')
-      .pipe(gulp.dest('./test/assets/lib'));
+      .pipe(gulp.dest('./test/assets/lib/' + pkg.name + '/dist'));
     cb();
   });
 });
@@ -350,7 +350,7 @@ gulp.task('serve_lib', ['figlet'], function () {
   gulp.src([
     './src/' + pkg.name + '.js'
   ])
-    .pipe(gulp.dest('./test/assets/lib'));
+    .pipe(gulp.dest('./test/assets/lib/' + pkg.name + '/dist'));
 });
 
 gulp.task('watch', [], function() {
@@ -358,7 +358,7 @@ gulp.task('watch', [], function() {
 });
 
 gulp.task('browser-sync', [], function() {
-  browserSync.init(['test/assets/lib/*.js'], {
+  browserSync({
     server: {
       baseDir: './test',
       index: 'tests_amd.html'
@@ -507,7 +507,7 @@ gulp.task('dependo_amd', ['dependo_cjs'], function (cb) {
 
 gulp.task('coverage_instrument', ['build'], function (cb) {
   var cmd = 'istanbul instrument ./src/' + pkg.name + '.js';
-  cmd += ' > ./test/assets/lib/' + pkg.name + '.js';
+  cmd += ' > ./test/assets/lib/' + pkg.name + '/dist/' + pkg.name + '.js';
   exec(cmd, function (err, stdout, stderr) {
     console.log(stdout);
     console.log(stderr);
@@ -574,10 +574,10 @@ gulp.task('coverage', [
 
 gulp.task('uninstrument', ['coverage'], function (cb) {
   del([
-    './test/assets/lib/' + pkg.name + '.js'
+    './test/assets/lib/' + pkg.name + '/dist/' + pkg.name + '.js'
   ], function() {
     gulp.src('./src/*.js')
-      .pipe(gulp.dest('./test/assets/lib'));
+      .pipe(gulp.dest('./test/assets/lib/' + pkg.name + '/dist'));
     cb();
   });
 });
