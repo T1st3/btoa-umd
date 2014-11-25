@@ -215,7 +215,7 @@ gulp.task('init', ['qr'], function (cb) {
   ])
     .pipe(gulp.dest('./gh-pages/_layouts'));
 
-   triggerNotification ('Init', 'Successfully initiated the project.', function () {
+  triggerNotification ('Init', 'Successfully initiated the project.', function () {
     displayCowsay('gulp init - DONE', cb);
   });
 });
