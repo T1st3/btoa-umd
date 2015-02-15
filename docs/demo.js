@@ -4,13 +4,13 @@ require.config({
   baseUrl: '',
   paths: {
     /* dependencies */
-    jquery: 'assets/lib/jquery/dist/jquery.min',
-    mocha: 'assets/lib/mocha/mocha',
-    chai: 'assets/lib/chai/chai',
-    chaijquery: 'assets/lib/chai-jquery/chai-jquery',
-    bootstrap: 'assets/lib/bootstrap/dist/js/bootstrap.min',
+    jquery: 'app/lib/jquery/dist/jquery.min',
+    mocha: 'app/lib/mocha/mocha',
+    chai: 'app/lib/chai/chai',
+    chaijquery: 'app/lib/chai-jquery/chai-jquery',
+    bootstrap: 'app/lib/bootstrap/dist/js/bootstrap.min',
     /* this project */
-    btoa: 'assets/lib/btoa-umd/dist/btoa-umd'
+    btoa: 'app/lib/btoa-umd/dist/btoa-umd'
   },
   shim: {
     jquery: {
@@ -28,8 +28,8 @@ require.config({
 require([
   'jquery',
   'btoa',
-  'assets/lib/codemirror/lib/codemirror',
-  'assets/lib/codemirror/mode/javascript/javascript',
+  'app/lib/codemirror/lib/codemirror',
+  'app/lib/codemirror/mode/javascript/javascript',
   'bootstrap'
 ], function ($, Btoa, CodeMirror) {
   $(document).ready(function () {
