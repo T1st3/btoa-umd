@@ -151,7 +151,13 @@ gulp.task('bumpdate_src', ['figlet'], function (cb) {
   gulp.src(['./test/tests.js'])
     .pipe(replace(/(version [0-9]+.[0-9]+.[0-9]+)/g, 'version ' + require('./package.json').version))
     .pipe(gulp.dest('./test'));
-  cb();
+  del([
+    './test/app/lib/' + pkg.name + '/dist/' + pkg.name + '.js'
+  ], function() {
+    gulp.src('./src/*.js')
+      .pipe(gulp.dest('./test/app/lib/' + pkg.name + '/dist'));
+    cb();
+  });
 });
 
 gulp.task('bumpdate', ['bumpdate_src'], function (cb) {
