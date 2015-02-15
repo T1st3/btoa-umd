@@ -1,5 +1,8 @@
 ## Change Log
 
+### 0.7.0 (2015/02/15 13:06 +00:00)
+- [83d9153](https://github.com/T1st3/btoa-umd/commit/83d915368ff60582f9064a2b20f78009099cae10) chore: 0.7.0 (@T1st3)
+
 ### 0.6.15 (2014/11/25 05:23 +00:00)
 - [ec4cc42](https://github.com/T1st3/btoa-umd/commit/ec4cc42d8b6ef8c6588b8c771dda58fb48191a4c) chore: v0.6.15 (@T1st3)
 - [c375fec](https://github.com/T1st3/btoa-umd/commit/c375fecfefe68b9efcff9ab9172ebc4a673811e4) chore: update bower.json main section (@T1st3)
