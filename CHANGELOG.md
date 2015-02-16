@@ -1,5 +1,9 @@
 ## Change Log
 
+### 0.7.3 (2015/02/16 01:47 +00:00)
+- [de9f6d7](https://github.com/T1st3/btoa-umd/commit/de9f6d7b3b9a2168b684239852d545849112edd8) chore: 0.7.3 (@T1st3)
+- [1379357](https://github.com/T1st3/btoa-umd/commit/1379357855f33a066513393b15e7e6c86fac4619) chore: update workflow (@T1st3)
+
 ### 0.7.2 (2015/02/15 23:50 +00:00)
 - [b326f1c](https://github.com/T1st3/btoa-umd/commit/b326f1ceb0ba70ea368cfee61f3f92e530397824) chore: 0.7.2 (@T1st3)
 
