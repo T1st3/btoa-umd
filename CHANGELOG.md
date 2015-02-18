@@ -1,5 +1,11 @@
 ## Change Log
 
+### 0.7.4 (2015/02/16 12:48 +00:00)
+- [a0e1cad](https://github.com/T1st3/btoa-umd/commit/a0e1cad1133afa2522405ffd1ec5ef8e40f4d5cf) chore: 0.7.4 (@T1st3)
+- [f37342f](https://github.com/T1st3/btoa-umd/commit/f37342fb131c790c0e72e5ad8c617a8e672493a3) chore: update deps and workflow (@T1st3)
+- [5a8bfbb](https://github.com/T1st3/btoa-umd/commit/5a8bfbb4ca451c39ff985b126874e4133e406f8a) chore: update workflow (@T1st3)
+- [5b87a19](https://github.com/T1st3/btoa-umd/commit/5b87a19f6264faa3347fa84b345ca689c77152ea) fix: update bower override for lodash (@T1st3)
+
 ### 0.7.3 (2015/02/16 01:47 +00:00)
 - [de9f6d7](https://github.com/T1st3/btoa-umd/commit/de9f6d7b3b9a2168b684239852d545849112edd8) chore: 0.7.3 (@T1st3)
 - [1379357](https://github.com/T1st3/btoa-umd/commit/1379357855f33a066513393b15e7e6c86fac4619) chore: update workflow (@T1st3)
