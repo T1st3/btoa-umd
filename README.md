@@ -26,7 +26,7 @@ Installation for production
 **with Node.js**
 
 `btoa-umd` is available on [NPM](https://www.npmjs.org/package/btoa-umd)
-[![NPM](http://www.tiste.org/btoa-umd/assets/img/vendor/npm-16x16.png)](https://www.npmjs.org/package/btoa-umd).
+[![NPM](http://www.tiste.org/btoa-umd/assets/img/vendor/npm.png)](https://www.npmjs.org/package/btoa-umd).
 
 [![NPM version](https://badge.fury.io/js/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
 
@@ -39,7 +39,7 @@ You can install it with the following command:
 
 
 `btoa-umd` is available on [Bower](http://bower.io/search/?q=btoa-umd)
-[![Bower](http://www.tiste.org/btoa-umd/assets/img/vendor/bower-16x16.png)](http://bower.io/search/?q=btoa-umd).
+[![Bower](http://www.tiste.org/btoa-umd/assets/img/vendor/bower.png)](http://bower.io/search/?q=btoa-umd).
 
 [![Bower version](https://badge.fury.io/bo/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
 

@@ -1,5 +1,10 @@
 ## Change Log
 
+### 0.7.5 (2015/02/18 02:56 +00:00)
+- [06f5ed3](https://github.com/T1st3/btoa-umd/commit/06f5ed3882f9c22980830493bcdfaf2ac578026b) chore: 0.7.5 (@T1st3)
+- [85d64d9](https://github.com/T1st3/btoa-umd/commit/85d64d9ce3605536bffb0cbdd583704ca1724c7d) chore: update workflow (@T1st3)
+- [9fa7f8a](https://github.com/T1st3/btoa-umd/commit/9fa7f8a8d1fc4ec0bb4e98224eaaa296a94a586c) chore: update dev deps in package.json (@T1st3)
+
 ### 0.7.4 (2015/02/16 12:48 +00:00)
 - [a0e1cad](https://github.com/T1st3/btoa-umd/commit/a0e1cad1133afa2522405ffd1ec5ef8e40f4d5cf) chore: 0.7.4 (@T1st3)
 - [f37342f](https://github.com/T1st3/btoa-umd/commit/f37342fb131c790c0e72e5ad8c617a8e672493a3) chore: update deps and workflow (@T1st3)

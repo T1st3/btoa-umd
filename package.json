@@ -1,14 +1,14 @@
 {
   "name": "btoa-umd",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "homepage": "http://www.tiste.org/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
-    "umd",
     "btoa",
     "base64",
     "ascii",
-    "binary"
+    "binary",
+    "umd"
   ],
   "license": "MIT",
   "main": "dist/btoa-umd.js",

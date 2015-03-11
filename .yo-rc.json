@@ -1,11 +1,11 @@
 {
   "generator-t1st3-umd": {
     "ProjectName": "btoa-umd",
-    "ProjectVersion": "0.7.5",
+    "ProjectVersion": "0.7.6",
     "ProjectDescr": "A UMD module for btoa()",
     "ProjectSamples": false,
-    "ProjectBowerJson": false,
-    "ProjectPackageJson": false,
+    "ProjectBowerJson": true,
+    "ProjectPackageJson": true,
     "ProjectGlobalDeps": [],
     "ProjectMainClass": "Btoa",
     "ProjectKeywords": "btoa,base64,ascii,binary",
