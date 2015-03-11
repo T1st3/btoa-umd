@@ -29,7 +29,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "~0.5"
+  },
   "devDependencies": {
     "browser-sync": "~2.1",
     "chai": "~2.0",
