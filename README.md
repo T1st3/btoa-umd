@@ -2,11 +2,11 @@ btoa-umd
 ==================
 
 
-[![NPM version](https://badge.fury.io/js/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
-[![Dependency Status](https://david-dm.org/t1st3/btoa-umd.svg?theme=shields.io)](https://david-dm.org/t1st3/btoa-umd)
-[![Build Status](https://travis-ci.org/T1st3/btoa-umd.svg?branch=master)](https://travis-ci.org/T1st3/btoa-umd)
-[![Coverage Status](https://coveralls.io/repos/T1st3/btoa-umd/badge.png)](https://coveralls.io/r/T1st3/btoa-umd)
-[![Code Climate](https://codeclimate.com/github/T1st3/btoa-umd/badges/gpa.svg)](https://codeclimate.com/github/T1st3/btoa-umd)
+[![NPM version](https://img.shields.io/npm/v/btoa-umd.svg)](https://www.npmjs.com/package/btoa-umd)
+[![Dependency Status](https://img.shields.io/david/T1st3/btoa-umd.svg)](https://david-dm.org/t1st3/btoa-umd)
+[![Build Status](https://img.shields.io/travis/T1st3/btoa-umd.svg)](https://travis-ci.org/T1st3/btoa-umd)
+[![Coverage Status](https://img.shields.io/coveralls/T1st3/btoa-umd.svg)](https://coveralls.io/r/T1st3/btoa-umd)
+[![Code Climate](https://img.shields.io/codeclimate/github/T1st3/btoa-umd.svg)](https://codeclimate.com/github/T1st3/btoa-umd)
 
 
 
@@ -25,10 +25,10 @@ Installation for production
 
 **with Node.js**
 
-`btoa-umd` is available on [NPM](https://www.npmjs.org/package/btoa-umd)
-[![NPM](http://www.tiste.org/btoa-umd/assets/img/vendor/npm.png)](https://www.npmjs.org/package/btoa-umd).
+`btoa-umd` is available on [NPM](https://www.npmjs.com/package/btoa-umd)
+[![NPM](http://www.tiste.org/btoa-umd/assets/img/vendor/npm.png)](https://www.npmjs.com/package/btoa-umd).
 
-[![NPM version](https://badge.fury.io/js/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
+[![NPM version](https://img.shields.io/npm/v/btoa-umd.svg)](https://www.npmjs.com/package/btoa-umd)
 
 You can install it with the following command:
 
@@ -41,7 +41,7 @@ You can install it with the following command:
 `btoa-umd` is available on [Bower](http://bower.io/search/?q=btoa-umd)
 [![Bower](http://www.tiste.org/btoa-umd/assets/img/vendor/bower.png)](http://bower.io/search/?q=btoa-umd).
 
-[![Bower version](https://badge.fury.io/bo/btoa-umd.svg)](http://badge.fury.io/js/btoa-umd)
+[![Bower version](https://img.shields.io/bower/v/btoa-umd.svg)](http://bower.io/search/?q=btoa-umd)
 
 To install it from Bower, just run 
 
