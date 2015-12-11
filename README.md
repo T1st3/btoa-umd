@@ -15,8 +15,6 @@ About
 
 `btoa-umd` is a Javascript UMD module for btoa().
 
-You'll find all about this project on its **[project pages](http://www.tiste.org/btoa-umd/)**
-
 
 
 
@@ -67,24 +65,6 @@ Then, get the dependencies of the project from both Bower and NPM:
 
     npm install
     bower install
-
-
-
-Documentation
----
-
-
-You can find fully functional examples, tests and a documentation in the [JSDoc](http://usejsdoc.org/) format in the `docs` folder.
-
-You can also browse these documents and tests online:
-
-- [Demo](http://www.tiste.org/btoa-umd/demo.html)
-- [this README and more info](http://www.tiste.org/btoa-umd)
-- [JSDoc](http://www.tiste.org/btoa-umd/jsdoc.html)
-- [Credits](http://www.tiste.org/btoa-umd/credits.html)
-- [Tests](http://www.tiste.org/btoa-umd/tests.html)
-- [Coverage](http://www.tiste.org/btoa-umd/coverage.html)
-- [Dependencies](http://www.tiste.org/btoa-umd/dependencies.html)
 
 
 
