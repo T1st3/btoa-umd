@@ -23,7 +23,6 @@
         mocha: 'app/lib/mocha/mocha',
         chai: 'app/lib/chai/chai',
         chaijquery: 'app/lib/chai-jquery/chai-jquery',
-        bootstrap: 'app/lib/bootstrap/dist/js/bootstrap.min',
         /* this project */
         btoa: 'app/lib/btoa-umd/dist/btoa-umd'
       },
@@ -32,7 +31,6 @@
           exports: '$'
         },
         chaijquery: ['jquery', 'chai'],
-        bootstrap: ['jquery'],
         btoa: {
           exports: 'Btoa'
         }
@@ -43,8 +41,7 @@
       'chai',
       'btoa',
       'jquery',
-      'mocha',
-      'bootstrap'
+      'mocha'
     ], factory);
   } else if (typeof exports === 'object') {
     module.exports = factory(require('chai'), require('../src/btoa-umd'));
