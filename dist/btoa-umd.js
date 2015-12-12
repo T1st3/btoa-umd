@@ -3,7 +3,7 @@
 *
 * @link https://github.com/T1st3/btoa-umd
 * @author T1st3
-* @version 0.7.8
+* @version 1.0.0
 * @license https://github.com/T1st3/btoa-umd/blob/master/LICENSE
 *
 */
@@ -38,13 +38,6 @@
   var Btoa = function (b) {
     this.a = '';
     this.b = '';
-    if (typeof define === 'function' && define.amd) {
-      this.browser = true;
-    } else if (typeof exports === 'object') {
-      this.browser = false;
-    } else {
-      this.browser = true;
-    }
     // set method if supplied
     if (b) {
       this.handle(b);
@@ -69,23 +62,7 @@
     }
     this.b = b;
 
-    var buffer;
-
-    if (this.browser === true) {
-      /* global window */
-      if (typeof window.btoa === 'function') {
-        this.a = window.btoa(b);
-      } else {
-        this.a = Btoa.encode(b);
-      }
-    } else {
-      if (b instanceof Buffer) {
-        buffer = b;
-      } else {
-        buffer = new Buffer(b.toString(), 'binary');
-      }
-      this.a = buffer.toString('base64');
-    }
+    this.a = Btoa.encode(b);
     // keep chainability
     return this;
   };
@@ -130,5 +107,3 @@
 
   return Btoa;
 }));
-
-//# sourceMappingURL=btoa-umd.js.map
