@@ -62,8 +62,6 @@
     }
     this.b = b;
 
-    var buffer;
-
     this.a = Btoa.encode(b);
     // keep chainability
     return this;
