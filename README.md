@@ -41,6 +41,21 @@ To install it from Bower, just run
     bower install btoa-umd
 
 
+    Usage
+---
+
+Usage is pretty straightforward; in the following example, a function `btoa` is created to mimic the native function with the same name:
+
+    var btoa = function (b) {
+      var umd = new Btoa();
+      return umd.handle(b).a;
+    };
+    var res = btoa('Hello World');
+
+
+Then, `res` will return `SGVsbG8gV29ybGQ=`.
+
+
 
 Installation for development
 ---
