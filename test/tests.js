@@ -95,17 +95,6 @@
         res.a.should.equal('SGVsbG8gd29ybGQ=');
         done();
       });
-      if (browser === false) {
-        it('Correct param Buffer for b', function (done) {
-          var umd = new Btoa(),
-          res = null,
-          buffer = new Buffer('Hello world', 'binary');
-          res = umd.handle(buffer);
-          res.should.be.a('object');
-          res.a.should.equal('SGVsbG8gd29ybGQ=');
-          done();
-        });
-      }
     });
     describe('tests against encode', function () {
       it('No param for b', function (done) {
