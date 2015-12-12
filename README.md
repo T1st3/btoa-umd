@@ -7,6 +7,7 @@ btoa-umd
 [![Build Status](https://img.shields.io/travis/T1st3/btoa-umd.svg)](https://travis-ci.org/T1st3/btoa-umd)
 [![Coverage Status](https://img.shields.io/coveralls/T1st3/btoa-umd.svg)](https://coveralls.io/r/T1st3/btoa-umd)
 [![Code Climate](https://img.shields.io/codeclimate/github/T1st3/btoa-umd.svg)](https://codeclimate.com/github/T1st3/btoa-umd)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/t1st3/btoa-umd.svg)](http://isitmaintained.com/project/t1st3/btoa-umd "Percentage of issues still open")
 
 
 
