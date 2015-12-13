@@ -17,7 +17,7 @@
   "main": [
     "./dist/btoa-umd.js",
     "./dist/btoa-umd.min.js",
-    "./dist/btoa-umd.js.map"
+    "./dist/btoa-umd.min.js.map"
   ],
   "ignore": [
     ".directory",
