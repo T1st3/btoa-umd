@@ -41,7 +41,7 @@ To install it from Bower, just run
     bower install btoa-umd
 
 
-    Usage
+Usage
 ---
 
 Usage is pretty straightforward; in the following example, a function `btoa` is created to mimic the native function with the same name:
