@@ -1,7 +1,7 @@
 {
   "name": "btoa-umd",
   "version": "1.0.0",
-  "homepage": "https://github.com/T1st3/btoa-umd",
+  "homepage": "https://github.com/t1st3/btoa-umd",
   "description": "A UMD module for btoa()",
   "keywords": [
     "btoa",
@@ -12,7 +12,7 @@
   ],
   "license": "MIT",
   "authors": [
-    "T1st3 <contact@tiste.org> (http://www.tiste.org/)"
+    "t1st3 <contact@tiste.org> (http://www.tiste.org/)"
   ],
   "main": [
     "./dist/btoa-umd.js",

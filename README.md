@@ -3,10 +3,10 @@ btoa-umd
 
 
 [![NPM version](https://img.shields.io/npm/v/btoa-umd.svg)](https://www.npmjs.com/package/btoa-umd)
-[![Dependency Status](https://img.shields.io/david/T1st3/btoa-umd.svg)](https://david-dm.org/t1st3/btoa-umd)
-[![Build Status](https://img.shields.io/travis/T1st3/btoa-umd.svg)](https://travis-ci.org/T1st3/btoa-umd)
-[![Coverage Status](https://img.shields.io/coveralls/T1st3/btoa-umd.svg)](https://coveralls.io/r/T1st3/btoa-umd)
-[![Code Climate](https://img.shields.io/codeclimate/github/T1st3/btoa-umd.svg)](https://codeclimate.com/github/T1st3/btoa-umd)
+[![Dependency Status](https://img.shields.io/david/t1st3/btoa-umd.svg)](https://david-dm.org/t1st3/btoa-umd)
+[![Build Status](https://img.shields.io/travis/t1st3/btoa-umd.svg)](https://travis-ci.org/t1st3/btoa-umd)
+[![Coverage Status](https://img.shields.io/coveralls/t1st3/btoa-umd.svg)](https://coveralls.io/r/t1st3/btoa-umd)
+[![Code Climate](https://img.shields.io/codeclimate/github/t1st3/btoa-umd.svg)](https://codeclimate.com/github/t1st3/btoa-umd)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/t1st3/btoa-umd.svg)](http://isitmaintained.com/project/t1st3/btoa-umd "Percentage of issues still open")
 
 
@@ -65,9 +65,9 @@ You also can download the whole project (and build it from its source; see below
 
 Either use `git clone` command to get it:
 
-    git clone https://github.com/T1st3/btoa-umd.git
+    git clone https://github.com/t1st3/btoa-umd.git
 
-Or download the latest version of [the whole project](https://github.com/T1st3/btoa-umd/archive/master.zip).
+Or download the latest version of [the whole project](https://github.com/t1st3/btoa-umd/archive/master.zip).
 
 Then, get the dependencies of the project from both Bower and NPM:
 
@@ -138,7 +138,7 @@ License
 ---
 
 
-This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github.com/T1st3/btoa-umd/blob/master/LICENSE.md)
+This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github.com/t1st3/btoa-umd/blob/master/LICENSE.md)
 
 
 
@@ -146,4 +146,4 @@ This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github
 Initial author
 ---
 
-[T1st3](https://github.com/T1st3/) 
+[t1st3](https://github.com/t1st3/) 
