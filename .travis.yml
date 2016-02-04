@@ -9,9 +9,6 @@ before_install:
   - npm install -g gulp
 after_success:
   - gulp ci
-addons:
-  code_climate:
-    repo_token: 6ae42073fcd899c76d55ed13884f6c9688bfe2a13c9e4b57a0cb425dce8ff7c1
 deploy:
   provider: npm
   email: contact@tiste.org
