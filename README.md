@@ -12,6 +12,8 @@ btoa-umd
 About
 ---
 
+**This project is deprecated and is no longer maintained**
+
 `btoa-umd` is a Javascript UMD module for btoa().
 
 
