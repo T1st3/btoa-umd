@@ -65,9 +65,9 @@ You also can download the whole project (and build it from its source; see below
 
 Either use `git clone` command to get it:
 
-    git clone https://github.com/t1st3/btoa-umd.git
+    git clone https://github.com/t1st3-deprecate/btoa-umd.git
 
-Or download the latest version of [the whole project](https://github.com/t1st3/btoa-umd/archive/master.zip).
+Or download the latest version of [the whole project](https://github.com/t1st3-deprecate/btoa-umd/archive/master.zip).
 
 Then, get the dependencies of the project from both Bower and NPM:
 
@@ -138,7 +138,7 @@ License
 ---
 
 
-This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github.com/t1st3/btoa-umd/blob/master/LICENSE.md)
+This piece of code is triple-licensed: [MIT / BSD / GPL licenses](https://github.com/t1st3-deprecate/btoa-umd/blob/master/LICENSE.md)
 
 
 
